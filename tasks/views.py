@@ -8,8 +8,8 @@ def index(request):
 # Day-specific task view
 def day_view(request, day):
     tasks = {
-        'Monday': ['Math Homework', 'Gym'],
-        'Tuesday': ['Science Project', 'Grocery Shopping'],
+        'Monday': ['Prepare for meetings'],
+        'Tuesday': ['Grocery Shopping'],
         'Wednesday': ['Meeting with Mentor'],
         'Thursday': ['Read a Book'],
         'Friday': ['Code Practice', 'Movie Night'],
